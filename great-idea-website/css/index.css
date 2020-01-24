@@ -159,27 +159,32 @@ h5 {
   position: relative;
   position: fixed;
   z-index: 1000;
-  background:rgba(120, 166, 240, .7)
+  background: rgba(120, 166, 240, 0.6);
 }
 
 .navbar a {
   position: relative;
   text-decoration: none;
   text-align: center;
-  padding: 5%;
+  width: 12.25%;
+  padding: 4%;
   color: gray;
   top: 10px;
-  transition: all .2s;
+  transition: all 0.2s;
+  margin-left: 5px;
 }
 
 a img {
-	position: relative;
-	top: 10px;
+  position: relative;
+  top: 10px;
+  width: 12.25%;
+  height: auto;
+  margin-left: 5%;
 }
 
 .navbar a:hover {
-	color: black;
-	font-weight: 1000;
+  color: black;
+  font-weight: 1000;
 }
 
 h1 {
@@ -207,16 +212,18 @@ p {
   text-align: center;
   vertical-align: top;
   width: 48%;
-  margin: 1%;
-  padding: 4%;
+  height: auto;
+  margin: auto;
+  padding: 2%;
 }
 
 .section-one img {
   position: relative;
   display: inline-block;
-  right: 20%;
-  margin-right: auto;
-  width: 40%;
+  right: 15%;
+  margin: auto;
+  width: 48%;
+  height: auto;
   left: 5%;
   text-align: center;
 }
@@ -232,14 +239,14 @@ p {
   border: solid 1px black;
   background: white;
   font-size: large;
-  transition: all .3s;
-  box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.5);
+  transition: all 0.3s;
+  box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.5);
 }
 
 #btn:hover {
-	color: white;
-	background: black;
-	cursor: pointer;
+  color: white;
+  background: black;
+  cursor: pointer;
 }
 
 .about {
